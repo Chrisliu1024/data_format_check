@@ -1,0 +1,21 @@
+{
+    "lidar-top-to-car": {
+        "param_type": "extrinsic",
+        "sensor_name": "lidar-top",
+        "target_sensor_name": "car",
+        "param": {
+            "sensor_calib": {
+              "data": [
+                [ -0.0162866, -0.998889, 0.0442667, 1.0947 ],
+                [ 0.999852, -0.0165517, -0.00563186, -0.0236807 ],
+                [ 0.00635831, 0.0441682, 0.999018, 1.93714 ],
+                [ 0.0, 0.0, 0.0, 1.0 ]
+              ],
+                "continuous": true,
+                "rows": 4,
+                "cols": 4,
+                "type": 6
+            }
+        }
+    }
+}

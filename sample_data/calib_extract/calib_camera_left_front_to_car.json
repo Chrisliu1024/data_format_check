@@ -1,0 +1,47 @@
+{
+  "camera-left-front": {
+    "param_type": "intrinsic",
+    "sensor_name": "camera-left-front",
+    "param": {
+      "width": 1920,
+      "height": 1280,
+      "cam_matrix": {
+        "data": [
+          [ 1154.92, 0, 967.507 ],
+          [ 0, 1154.84, 614.032 ],
+          [ 0, 0, 1 ]
+        ],
+        "continuous": true,
+        "rows": 3,
+        "cols": 3,
+        "type": 6
+      },
+      "cam_dist": {
+        "data": [ 1.98487, 1.85298, -0.000270436, -0.0000262008, 0.167518, 2.36329, 2.51904, 0.674262, 0, 0, 0, 0, 0, 0 ],
+        "continuous": true,
+        "rows": 1,
+        "cols": 14,
+        "type": 6
+      }
+    }
+  },
+  "camera-left-front-to-car": {
+    "param_type": "extrinsic",
+    "sensor_name": "camera-left-front",
+    "target_sensor_name": "car",
+    "param": {
+      "sensor_calib": {
+        "data": [
+          [ 0.790397, -0.0168591, 0.612363, 2.21836 ],
+          [ -0.612485, -0.00285421, 0.790477, 0.931674 ],
+          [ -0.0115789, -0.999854, -0.0125819, 1.04652 ],
+          [ 0.0, 0.0, 0.0, 1.0 ]
+        ],
+        "continuous": true,
+        "rows": 4,
+        "cols": 4,
+        "type": 6
+      }
+    }
+  }
+}

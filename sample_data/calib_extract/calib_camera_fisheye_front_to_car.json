@@ -1,0 +1,47 @@
+{
+  "camera-fisheye-front": {
+    "param_type": "intrinsic",
+    "sensor_name": "camera-fisheye-front",
+    "param": {
+      "width": 1280,
+      "height": 800,
+      "cam_matrix": {
+        "data": [
+          [ 315.671, 0, 643.033 ],
+          [ 0, 315.6, 400.684 ],
+          [ 0, 0, 1 ]
+        ],
+        "continuous": true,
+        "rows": 3,
+        "cols": 3,
+        "type": 6
+      },
+      "cam_dist": {
+        "data": [ 0.115318, -0.014599, 0.0005, -0.00031 ],
+        "continuous": true,
+        "rows": 1,
+        "cols": 4,
+        "type": 6
+      }
+    }
+  },
+  "camera-fisheye-front-to-car": {
+    "param_type": "extrinsic",
+    "sensor_name": "camera-fisheye-front",
+    "target_sensor_name": "car",
+    "param": {
+      "sensor_calib": {
+        "data": [
+          [ -0.0210451, -0.504533, 0.863136, 3.8537 ],
+          [ -0.999717, 0.00105391, -0.0237592, 0.00740673 ],
+          [ 0.0110776, -0.863392, -0.504413, 0.609025 ],
+          [ 0.0, 0.0, 0.0, 1.0 ]
+        ],
+        "continuous": true,
+        "rows": 4,
+        "cols": 4,
+        "type": 6
+      }
+    }
+  }
+}
